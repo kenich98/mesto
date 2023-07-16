@@ -1,0 +1,14 @@
+.mesto__element {
+    background-color: #FFF;
+    max-width: 282px;
+    width: 100%;
+    min-height: 361px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 660px) {
+    .mesto__element {
+        margin: 0 auto;
+    }
+}

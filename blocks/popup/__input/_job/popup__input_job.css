@@ -1,0 +1,10 @@
+.popup__input_job {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0;
+    padding-bottom: 13px;
+    margin-bottom: 48px;
+    width: 100%;
+}

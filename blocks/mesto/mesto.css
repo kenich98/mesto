@@ -1,0 +1,9 @@
+.mesto {
+    margin-top: 51px;
+}
+
+@media (max-width: 660px) {
+    .mesto {
+        margin-top: 38px;
+    }
+}

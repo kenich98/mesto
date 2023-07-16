@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Место</title>
+</head>
+
+<body class="page">
+    <div class="page__container">
+        <header class="header">
+            <img src="./images/logo.svg" alt="Место Россия" class="header__logo">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <img src="./images/avatar.png" alt="Портрет Жак-Ив Кусто" class="profile__avatar">
+                <div class="profile__info-container">
+                <div class="profile__info">
+                    <h1 class="profile__title">Жак-Ив Кусто</h1>
+                    <button class="profile__edit-button"></button>
+                </div>
+                <p class="profile__subtitle">Исследователь океана</p>
+            </div>
+                <button class="profile__add-button"></button>
+            </section>
+            <section class="mesto">
+                <ul class="mesto__elements">
+                    <li class="mesto__element">
+                        <img src="./images/baikal.jpg" alt="Байкал" class="mesto__image">
+                        <div class="mesto__card">
+                            <h2 class="mesto__title">Озеро Байкал</h2>
+                            <button class="mesto__like-button"></button>
+                        </div>
+                    </li>
+                    <li class="mesto__element">
+                        <img src="./images/winter-baikal.jpg" alt="Зимний Байкал" class="mesto__image">
+                        <div class="mesto__card">
+                            <h2 class="mesto__title">Зимний Байкал</h2>
+                            <button class="mesto__like-button"></button>
+                        </div>
+                    </li>
+                    <li class="mesto__element">
+                        <img src="./images/baikalwave.jpg" alt="Берег Байкала" class="mesto__image">
+                        <div class="mesto__card">
+                            <h2 class="mesto__title">Берег Байкала</h2>
+                            <button class="mesto__like-button"></button>
+                        </div>
+                    </li>
+                    <li class="mesto__element">
+                        <img src="./images/elbrus.png" alt="Гора Эльбрус" class="mesto__image">
+                        <div class="mesto__card">
+                            <h2 class="mesto__title">Гора Эльбрус</h2>
+                            <button class="mesto__like-button"></button>
+                        </div>
+                    </li>
+                    <li class="mesto__element">
+                        <img src="./images/dombai.png" alt="Домбай" class="mesto__image">
+                        <div class="mesto__card">
+                            <h2 class="mesto__title">Домбай</h2>
+                            <button class="mesto__like-button"></button>
+                        </div>
+                    </li>
+                    <li class="mesto__element">
+                        <img src="./images/karachevsk.png" alt="Карачаевск" class="mesto__image">
+                        <div class="mesto__card">
+                            <h2 class="mesto__title">Карачаевск</h2>
+                            <button class="mesto__like-button"></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">&copy; 2020 Mesto Russia</p>
+        </footer>
+        <section class="popup">
+            <div class="popup__container">
+                <button class="popup__close-button"></button>
+                <form class="popup__info" name="profileInfo">
+                    <h2 class="popup__profile-edit">Редактировать профиль</h2>
+                    <fieldset class="popup__user-info">
+                        <input class="popup__input popup__input_name" id="name-input" type="text" name="title" value="Жак-Ив Кусто"
+                            required>
+                        <input class="popup__input popup__input_job" id="job-input" type="text" name="subtitle" value="Исследователь океана"
+                            required>
+                    </fieldset>
+                    <button type="submit" class="popup__save-button">Сохранить</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+<script type="text/javascript" src="./scripts/index.js"></script>
+
+</html>
