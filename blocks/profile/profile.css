@@ -9,5 +9,6 @@
     .profile {
         padding-top: 40px;
         grid-template-columns: auto;
+        text-align: center;
     }
 }
