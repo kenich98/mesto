@@ -4,7 +4,15 @@
     font-weight: 400;
     line-height: normal;
     padding: 0;
-    padding-bottom: 13px;
-    margin-bottom: 48px;
+    padding-bottom: 9px;
+    margin-bottom: 49px;
     width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 660px) {
+    .popup__input_job {
+        margin-bottom: 46px;
+    }
 }

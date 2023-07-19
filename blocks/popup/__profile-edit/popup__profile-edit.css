@@ -2,7 +2,19 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    margin: 0;
-    margin-bottom: 54px;
+    margin-bottom: 47px;
+    margin-top: 34px;
+    margin-left: 36px;
+    margin-right: auto;
+    line-height: 29.05px;
+}
+
+@media (max-width: 660px) {
+    .popup__profile-edit {
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 22px;
+        margin-top: 22px;
+        margin-bottom: 69px;
+    }
 }

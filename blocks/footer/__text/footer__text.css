@@ -1,7 +1,9 @@
 .footer__text {
     color: #545454;
     font-size: 18px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
 }
 
 @media (max-width: 900px) {
