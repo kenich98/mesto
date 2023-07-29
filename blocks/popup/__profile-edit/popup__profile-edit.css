@@ -12,9 +12,9 @@
 @media (max-width: 660px) {
     .popup__profile-edit {
         font-size: 18px;
-        font-weight: 900;
         margin-left: 22px;
-        margin-top: 22px;
-        margin-bottom: 69px;
+        margin-top: 26px;
+        margin-bottom: 74px;
+        line-height: 21.78px;
     }
 }
