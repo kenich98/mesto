@@ -20,7 +20,6 @@ const popupAdd = function () {
 
 function handleFormSubmit(evt) {
     evt.preventDefault();
-    let nameValue = nameInput.value;
     let jobValue = jobInput.value;
     cardName.textContent = nameValue;
     cardJob.textContent = jobValue;
